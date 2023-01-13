@@ -1,9 +1,17 @@
+
+
 import './App.css';
+import BarraSuperior from './components/BarraSuperior';
+import Contador from './components/Contador';
 
 function App() {
   return (
     <div className="App">
-      <p>Hola mundo c:</p>
+      
+
+      <BarraSuperior/>
+     <Contador/>
+
     </div>
   );
 }
